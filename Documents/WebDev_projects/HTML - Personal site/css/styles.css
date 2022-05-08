@@ -1,0 +1,20 @@
+body{
+  background-color: #ECDBBA;
+}
+img{
+  height: 160px;
+}
+hr{
+  hr align = "left";
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #C84B31;
+  border-width: 4px;
+  width: 5%;
+}
+h1{
+  color: #2D4263;
+}
+h3{
+  color: #2D4263;
+}
