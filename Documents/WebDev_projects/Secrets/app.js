@@ -18,7 +18,6 @@ app.use(express.static("public"));
 // ps -eaf | grep mongod
 // To stop this process use terminal command --> kill -2 [722732] (number of process in brackets, remove brackets)
 
-// mongoose.connect("mongodb+srv://admin-sasha:Sasha123Test@cluster0.2dc10pe.mongodb.net/wikiDB");
 mongoose.connect("mongodb://localhost:27017/userDB");
 
 const userSchema = new mongoose.Schema ({
